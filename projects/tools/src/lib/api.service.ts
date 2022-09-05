@@ -11,7 +11,7 @@ import {User} from "projects/models/user.interface";
   providedIn: 'root'
 })
 export class ApiService {
-  private URL = 'http://localhost:5000/api';
+  private URL = 'http://localhost:5100/api';
   private authState$ = new BehaviorSubject<boolean>(false);
   // @ts-ignore
   private user: User = {
